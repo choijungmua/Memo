@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @keyframes 애니 {
+            50% {
+                transform : translate(200px, 0);
+            }
+            100% {
+                transform: translate(200px, 200px);
+            }
+        }
+            div {
+                background-color: red;
+                width: 100px;
+                height : 100px;
+                animation: 애니 2s;
+                transition: all 1s;
+            }
+            div:hover{
+                background-color: dodgerblue;
+                width: 200px;
+                height: 200px;
+            }
+    </style>
+</head>
+<body>
+    <button class="btn">click me!</button>
+    <div>hello world</div>
+</body>
+</html>
